@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
+*{
+    box-sizing:border-box;
+}
+html,body{
+    height:100%;
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+body{
+    background-image:url(/laraveles/aplicacionJueves/public/assets/planet.jpg);
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+}
+.title{
+    display:flex;
+    height:100%;
+    width:100%;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+}
+.ch1{
+ left:10%;   
+}
+.ch2{
+ left:30%;   
+}
+.ch3{
+ left:50%;   
+}
+.ch4{
+ left:70%;   
+}
+.ch11{
+    width:100%;
+    height:100%;
+    transform: skewX(20deg);
+    background-image:url(/laraveles/aplicacionJueves/public/assets/img/1.jpg);
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+}
+.ch2-1{
+    width:100%;
+    height:100%;
+    transform: skewX(20deg);
+    background-image:url(/laraveles/aplicacionJueves/public/assets/img/2.jpg);
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+}
+.ch3-1{
+    width:100%;
+    height:100%;
+    transform: skewX(20deg);
+    background-image:url(/laraveles/aplicacionJueves/public/assets/img/3.jpg);
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+}
+.ch4-1{
+    width:100%;
+    height:100%;
+    transform: skewX(20deg) scale(0.95);
+    background-image:url(/laraveles/aplicacionJueves/public/assets/img/4.jpg);
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+}
+.character{
+    background-color:white;
+    width:400px;
+    height:600px;
+    transform: skewX(-20deg);
+    border:10px solid black;
+    overflow:hidden;
+    position:absolute;
+}
+.logoOnPaige{
+    z-index:2222;
+      text-decoration: none;
+      z-index:2;
+      background-color: rgba(0, 0, 0, 0.534);
+      color: white;
+      margin: 15% auto;
+      width: fit-content;  
+      font-size: 4em;
+      padding: 2% 5%; 
+      text-align: center;
+      position: relative;
+  }
+  .logoOnPaige:before, .logoOnPaige:after {
+    content:'';
+    position:absolute;
+    width:60px; 
+    height: 60px;
+    border-color:black;
+    border-style:solid; 
+}
+.logoOnPaige:before {
+    top:0;
+    left:0;
+    margin:-2px -2px;
+    border-width: 5px 0 0 5px;
+}
+.logoOnPaige:after {
+    bottom:0;
+    margin:-2px -2px;
+    right:0;
+    border-width: 0px 5px 5px 0;
+}
